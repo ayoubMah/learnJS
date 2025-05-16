@@ -14,10 +14,7 @@ function yell(lowerCase){
 console.log(yell("ji"));
 
 function longer(str1, str2){
-  if(str1.longer > str2.longer){
-    return str1 + " is longer than"+ str2;
-  }
-  return str2 + " is longer than"+ str1;
+  return str1.length >= str2.length;
 }
 
-console.log(longer("Ayoub is the best programer in the world " , "wefrgrewadfsv"));
+console.log(longer("Ayodfghjmhgfdfghjhgfdsfgh" , "wefrgrewadfsv"));
